@@ -8,9 +8,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+    <div id="div1">
     
       Hola Mundo Cruel!!!</div>
     </form>
+    <script>
+      document.getElementById('div1').innerHTML = 'ABC';
+    </script>
 </body>
+
 </html>
