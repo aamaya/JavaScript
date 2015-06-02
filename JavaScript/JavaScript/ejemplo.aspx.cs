@@ -11,7 +11,7 @@ namespace JavaScript
   {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+      Page.Response.Write("<script>alert('Hola Mundo Cruel');</script>");
     }
   }
 }
